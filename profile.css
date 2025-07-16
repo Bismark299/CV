@@ -1,0 +1,133 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+main {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.profile-info {
+  background-color: white;
+  color: #264653;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.profile-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #264653;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="tel"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 2px solid #264653;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.profile-form input[type="text"]:focus,
+.profile-form input[type="email"]:focus,
+.profile-form input[type="tel"]:focus {
+  border-color: #2a9d8f;
+  outline: none;
+}
+
+.save-button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #1f6f7a;
+}
+
+.profile-info h2,
+.data-usage h2,
+.active-bundles h2,
+.purchase-bundles h2,
+.purchase-history h2,
+.account-actions h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.active-bundles ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.purchase-bundles button,
+.logout-button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.purchase-bundles button:hover,
+.logout-button:hover {
+  background-color: #1f6f7a;
+}
+
+.purchase-history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.purchase-history th,
+.purchase-history td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.purchase-history th {
+  background-color: #2a9d8f;
+  color: white;
+}

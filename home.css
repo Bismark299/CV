@@ -1,0 +1,238 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #f0f0f0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+#home,
+#profile,
+#cart,
+#menu {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+
+#home:hover,
+#profile:hover,
+#cart:hover,
+#menu:hover {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 0 8px #ffcc00;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.upload-section {
+  margin: 40px auto 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.upload-section input.file {
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.upload-section button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.upload-section button:hover {
+  background-color: #e6b800;
+}
+
+.add-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-row,
+.add-to-cart {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 1px 0 50px;
+  padding: 12px 25px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.add-row:hover,
+.add-to-cart:hover {
+  background-color: #e6b800;
+}
+
+.container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.card {
+  background-color: #ffcc00;
+  border-radius: 15px;
+  width: 200px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-top {
+  padding: 25px 20px 10px;
+  text-align: center;
+  color: #333;
+}
+
+.card-top img {
+  width: 50px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.data-size {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+}
+
+.card-bottom {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card-bottom div {
+  margin: 6px 0;
+}
+
+.label {
+  font-weight: 700;
+  display: block;
+  font-size: 12px;
+  color: #ccc;
+}
+
+/*** Network styles ********/
+
+.mtn {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.mtn:hover {
+  background-color: #e6b800;
+}
+
+.airteltigo {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.airteltigo:hover {
+  background-color: #002244;
+}
+
+.telecel {
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.telecel:hover {
+  background-color: #990000;
+}
+
+.networks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.Upload {
+  margin-left: 50px;
+}
